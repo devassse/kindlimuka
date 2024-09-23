@@ -1,0 +1,34 @@
+{
+  "name": "kindlimuka",
+  "version": "1.0.0",
+  "description": "Alertas de Desastres e Catástrofes",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devassse/kindlimuka.git"
+  },
+  "keywords": [
+    "Alertas",
+    "Desastres",
+    "Catástrofes",
+    "Naturais"
+  ],
+  "author": "Keoma Software, inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devassse/kindlimuka/issues"
+  },
+  "homepage": "https://github.com/devassse/kindlimuka#readme",
+  "dependencies": {
+    "fastify": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.2",
+    "tsx": "^4.19.1"
+  }
+}
